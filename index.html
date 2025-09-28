@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">Bookshop</div>
+
+    <nav class="header__nav">
+      <a href="#">BOOKS</a>
+      <a href="#">AUDIOBOOKS</a>
+      <a href="#">STATIONERY & GIFTS</a>
+      <a href="#">BLOG</a>
+    </nav>
+
+    <div class="header__icons">
+      <button class="icon-btn">
+        <img src="image/user.svg" alt="Профиль">
+      </button>
+      <button class="icon-btn">
+        <img src="image/search.svg" alt="Поиск">
+      </button>
+      <button class="icon-btn cart-btn">
+        <img src="image/shop.svg" alt="Корзина">
+        <span class="cart-badge">3</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="slider-wrapper">
+    <div class="slider">
+      <div class="slides">
+        <div class="slide active"><img src="image/banner.jpg" alt="Banner 1"></div>
+        <div class="slide"><img src="image/banner 2.jpg" alt="Banner 2"></div>
+        <div class="slide"><img src="image/banner 3.jpg" alt="Banner 3"></div>
+      </div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <a href="#" class="slider-link block1">CHANGE OLD BOOK<br>ON NEW</a>
+    <a href="#" class="slider-link block2">TOP 100 BOOKS<br>2022</a>
+  </div>
+
+  <main class="content">
+    <aside class="sidebar">
+  <ul id="category-list">
+    <li class="active">Architecture</li>
+    <li>Art & Fashion</li>
+    <li>Biography</li>
+    <li>Business</li>
+    <li>Children’s books</li>
+    <li>Crafts & Hobbies</li>
+    <li>Drama</li>
+    <li>Fiction</li>
+    <li>Food & Drink</li>
+    <li>Health & Wellbeing</li>
+    <li>History & Politics</li>
+    <li>Humor</li>
+    <li>Poetry</li>
+    <li>Psychology</li>
+    <li>Science</li>
+    <li>Technology</li>
+    <li>Travel & Maps</li>
+  </ul>
+</aside>
+
+    <section class="books-grid" id="book-list">
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Bookshop. Все права защищены.</p>
+  </footer>
+
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
